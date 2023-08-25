@@ -43,7 +43,7 @@ public class Calender {
         }
 
         String m = "";
-        String w = "";
+        System.out.println("M   T   W   T   F   S   S");
 
         for(int i = 0; i < weekDayNames.length ; i++){
             
