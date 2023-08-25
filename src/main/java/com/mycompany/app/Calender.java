@@ -19,15 +19,16 @@ public class Calender {
         year = today.getYear();
         monthName = monthNames[month];
         weekDayName = weekDayNames[weekDay];
-
     }
 
     int[] getMonthArr() {
         int[] calender = new int[35];
 
-        int weekNumber = day / 7;
-
         return calender;
+    }
+
+    boolean isLeapYear (int y){
+        return y%4 == 0;
     }
 
     public String test() {
